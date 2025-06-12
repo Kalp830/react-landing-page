@@ -4,8 +4,8 @@ import {Link, Outlet} from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
-    <nav className='navbar-nav d-flex'>
-        <ul>
+    <nav className='navbar-nav'>
+        <ul className='flex justify-between'>
             <li><Link to="/" className='nav-item'>Home</Link></li>
             <li><Link to="/service" className='nav-item'>Service</Link></li>
             <li><Link to="/feature" className='nav-item'>Feature</Link></li>

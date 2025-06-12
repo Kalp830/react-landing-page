@@ -1,0 +1,23 @@
+.social-media-links a{
+    background-color: #263238;
+    padding:  10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+.footer-listing{
+    color: #fff;
+}
+.footer-listing h1{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.footer-listing ul li{
+    padding: 0.45rem 0;
+    opacity: 0.65;
+   
+}
