@@ -1,8 +1,18 @@
 import React from 'react'
+import CTA from '../component/CTA-Section/CTA'
+import HeroSlider from '../component/HeroSlider/HeroSlider'
+import OurClients from '../component/OurClients/OurClients'
+import ManageCommunity from '../component/Community/ManageCommunity'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    {/* <HeroSlider/> */}
+    
+    <OurClients/>
+    <ManageCommunity/>
+    <CTA/>
+    </>
   )
 }
 
