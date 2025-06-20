@@ -7,6 +7,7 @@ import ImageCTA from '../component/ImageCTA/ImageCTA'
 import CtaImg from '../images/cta-img.svg'
 import MobileImg from '../images/site-footer.svg'
 import BusinessReinvent from '../component/Business-reinvent/BusinessReinvent'
+import ReadMoreSection from '../component/Readmore/ReadMoreSection'
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
     imageDesc="Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida."
     buttonTxt="Learn More"
     />
+    <ReadMoreSection />
     <CTA/>
     </>
   )
