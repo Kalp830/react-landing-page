@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://kalp830.github.io/react-landing-page/",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
