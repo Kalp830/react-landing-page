@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from './pages/Layout'
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import {BrowserRouter, Route, Routes, HashRouter} from 'react-router-dom'
 import Home from './pages/Home'
 import Service from './pages/Service'
 import Feature from './pages/Feature'
@@ -11,7 +11,7 @@ import FAQ from './pages/FAQ'
 function App() {
   return (
     <>
-     <BrowserRouter>
+     <HashRouter>
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>
@@ -22,7 +22,7 @@ function App() {
           <Route path='/faq' element={<FAQ/>}/>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
        
     </>
   )
